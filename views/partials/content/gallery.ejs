@@ -1,0 +1,28 @@
+<div id="wrapper">
+    <video id="mainGalleryVideo" autoplay="">
+      <source src=<%= backgroundVideo %> type="video/mp4;"
+          codecs="avc1.42E01E, mp4a.40.2"/>
+          Video not supported.
+    </video>
+    <div id="gallery">
+        <div class="gallery_title_wrapper">
+            <div class="galleryTitle">
+                <p><%= galleryTitle %></p>
+            </div>
+            <div class="gallery_content">
+                <div class="thumbnail_gallery">
+                    <% if (imageArr.length > 0) { %>
+                        <% for (i=0; i< imageArr.length; i++) { %>
+                            <img src=<%= imageArr[i] %> id="thumbnail<%= [i] %>">
+                        <% } %>
+                    <% } %>
+                </div>
+                <video id="galleryVideo" autoplay="">
+                  <source id="galleryVideoSource" src=<%= galleryMapVideo %> type="video/mp4;"
+                      codecs="avc1.42E01E, mp4a.40.2"/>
+                      Video not supported.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>

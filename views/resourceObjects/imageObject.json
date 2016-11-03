@@ -1,0 +1,34 @@
+{
+    "water_theme": {
+        "images": {
+            "image1": "assets/images/water/thumb1.png",
+            "image2": "assets/images/water/thumb2.png",
+            "image3": "assets/images/water/thumb3.jpg",
+            "image4": "assets/images/water/thumb4.jpg",
+            "image5": "assets/images/water/thumb5.png"
+        },
+        "videos": {
+            "video1": "assets/videos/water/video1.mp4",
+            "video2": "assets/videos/water/video2.mp4",
+            "video3": "assets/videos/water/video3.mp4",
+            "video4": "assets/videos/water/video4.mp4",
+            "video5": "assets/videos/water/map.mp4"
+        }
+    },
+    "land_theme": {
+        "images": {
+            "image1": "assets/images/land/thumb1.jpg",
+            "image2": "assets/images/land/thumb2.jpg",
+            "image3": "assets/images/land/thumb3.jpg",
+            "image4": "assets/images/land/thumb4.jpg",
+            "image5": "assets/images/land/thumb5.png"
+        },
+        "videos": {
+            "video1": "assets/videos/water/video1.mp4",
+            "video2": "assets/videos/water/video2.mp4",
+            "video3": "assets/videos/water/video3.mp4",
+            "video4": "assets/videos/water/video4.mp4",
+            "video5": "assets/videos/water/map.mp4"
+        }
+    }
+}
